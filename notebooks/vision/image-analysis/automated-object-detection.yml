@@ -1,0 +1,8 @@
+name: automated-object-detection
+dependencies:
+- pip:
+  - azure-common
+  - azure-cognitiveservices-vision-computervision
+  - numpy
+  - matplotlib
+  - opencv-python
