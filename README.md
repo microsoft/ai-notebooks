@@ -1,33 +1,36 @@
-# Project
+# AI Notebooks
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+This repo contains Python Notebooks for demonstrating the capabilities of several Azure AI Services.
 
-As the maintainer of this project, please make a few updates:
+### Samples Catalog
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+#### Natural Language Processing
 
-## Contributing
+| Notebook | Description | Azure Services|
+|--|--|--|
+| | | |
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+#### Speech
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+| Notebook | Description | Azure Services|
+|--|--|--|
+| | | |
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+#### Vision
+| Notebook | Description | Azure Services|
+|--|--|--|
+| [Image Analysis](./notebooks/vision/image-analysis/automated-object-detection.ipynb) | Automated detection of objects, people and landmarks on images  | [Computer Vision (Image Analysis)](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/overview-image-analysis) |
+
+
+### Getting Started
+
+Run these notebooks on an Azure Machine Learning Compute Instance or on your own computer, with all the Cognitive Services Python SDKs already installed.
+
+On the future, we plan to provide IaC scripts for creating all cognitive services automatically, for running any of these demos.
+
 
 ## Trademarks
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft trademarks or logos is subject to and must follow [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
